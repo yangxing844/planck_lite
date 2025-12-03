@@ -95,7 +95,7 @@ nice_view_spi: &spi2 {
         compatible = "zmk,kscan-composite";
         rows = <4>;
         columns = <12>;
-
+        wakeup-source;
         // Include the matrix driver
         matrix {
             kscan = <&kscan1>;
