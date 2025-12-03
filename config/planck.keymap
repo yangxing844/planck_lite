@@ -27,7 +27,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+                <&inc_dec_kp C_VOLUME_DOWN C_VOL_UP>;
         };
 
         layer_1 {
@@ -40,7 +40,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+                <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
         layer_2 {
