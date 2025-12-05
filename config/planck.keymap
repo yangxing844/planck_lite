@@ -35,12 +35,12 @@
 &kp ESC    &trans    &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &none     &trans    &kp N7  &kp N8  &kp N9       &trans   &kp BSPC
 &kp TAB    &kp HOME  &kp LEFT   &kp DOWN      &kp RIGHT  &trans    &trans    &kp N4  &kp N5  &kp N6       &kp N0   &kp ENTER
 &kp LSHFT  &kp Z     &kp X      &kp C         &kp D      &kp SEMI  &kp SEMI  &kp N1  &kp N2  &kp N3       &kp DOT  &trans
-                     &trans     &trans        &trans     &trans    &trans    &trans  &trans  &kp C_SLEEP
+                     &trans     &trans        &trans     &trans    &trans    &trans  &trans  &kp C_PAUSE
             >;
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
+                <&inc_dec_kp C_NEXT C_PREV>;
         };
 
         layer_2 {
